@@ -8,5 +8,9 @@ Source: Udacity Project Introduction
 # Database Schema Design
 The schema design being used in this project is the STAR schema. This includes a single fact table called songplays and 4 dimension tables: songs, artists, users, and time.
 
+![Schema Image](./star.png "Schema Image")
+
 # ETL Pipeline
 The ETL pipeline first extracts data from two S3 buckets which contain JSON logs on user activity and JSON meta data on the songs. This data is then loaded into redshift staging tables before it is transformed and loaded into the fact and dimension tables.
+
+![ETL Image](./etl.png "ETL Image")
