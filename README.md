@@ -5,6 +5,11 @@ As their data engineer, you are tasked with building an ETL pipeline that extrac
 
 Source: Udacity Project Introduction
 
+# Technologies:
+- Python
+- Amazon S3
+- Amazon Redshift
+
 # Database Schema Design
 The schema design being used in this project is the STAR schema. This includes a single fact table called songplays and 4 dimension tables: songs, artists, users, and time.
 
