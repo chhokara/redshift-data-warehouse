@@ -18,4 +18,4 @@ The schema design being used in this project is the STAR schema. This includes a
 # ETL Pipeline
 The ETL pipeline first extracts data from two S3 buckets which contain JSON logs on user activity and JSON meta data on the songs. This data is then loaded into redshift staging tables before it is transformed and loaded into the fact and dimension tables.
 
-![ETL Image](./etl-diagram.png "ETL Image")
+![ETL Image](./etl-model.png "ETL Image")
